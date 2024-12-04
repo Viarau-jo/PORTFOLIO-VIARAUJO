@@ -66,7 +66,7 @@
             height: 150px;
             border-radius: 50%;
             margin: 20px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
         }
 
         .projects {
@@ -116,29 +116,35 @@
             color: #666;
         }
 
-        .testimonials {
+        .services {
             padding: 50px 20px;
-            background-color: #f8f9fa;
-            text-align: center;
+            background-color: #f1f3f5;
         }
 
-        .testimonials h2 {
+        .services h2 {
+            text-align: center;
             color: #6e45e2;
         }
 
-        .testimonial {
-            margin: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            background: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-            max-width: 400px;
+        .services ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
         }
 
-        .testimonial p {
-            font-size: 1rem;
-            color: #333;
+        .services ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .quote {
+            padding: 30px 20px;
+            text-align: center;
+            background-color: #6e45e2;
+            color: white;
+            font-style: italic;
+            margin: 20px 0;
         }
 
         footer {
@@ -165,8 +171,8 @@
 <body>
 
     <header>
-        <h1>Prazer! Me chamo Vitoria</h1>
-        <p>Sou designer gráfica com paixão por criar identidades visuais e ilustrações únicas.</p>
+        <h1>Oi! Me chamo Vitoria</h1>
+        <p>Sou designer gráfica com uma paixão inigualável por criar identidades visuais e ilustrações. Vamos transformar suas ideias em algo memorável?</p>
     </header>
 
     <section class="skills">
@@ -177,9 +183,10 @@
     </section>
 
     <section class="about">
-        <h2>Sobre mim</h2>
-        <img src="images/profile.jpg" alt="Minha Foto">
-        <p>Desde os 16 anos, encontrei no design gráfico a melhor forma de unir minha criatividade e paixão por ilustrações. Meu foco é sempre traduzir a essência de cada cliente em designs únicos, funcionais e atemporais.</p>
+        <h2>Sobre Mim</h2>
+        <img src="images/vitoria.jpg" alt="Vitoria">
+        <p>Desde os 16 anos, encontrei no design gráfico a melhor forma de unir minha criatividade e paixão por ilustrações. O que começou como um hobby rapidamente se tornou minha maior realização profissional. 
+        Hoje, sou especializada em identidades visuais e ilustrações, sempre buscando traduzir a essência de cada cliente em designs únicos e atemporais. Acredito no poder visual de contar histórias e construir conexões autênticas.</p>
     </section>
 
     <section class="projects">
@@ -198,23 +205,31 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <h2>Depoimentos</h2>
-        <div class="testimonial">
-            <p>"Vitoria trouxe à vida a essência da nossa marca de maneira única. Estamos muito satisfeitos!"</p>
-        </div>
-        <div class="testimonial">
-            <p>"A criatividade e atenção aos detalhes de Vitoria nos impressionaram. Super recomendamos!"</p>
-        </div>
+    <section class="services">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li><strong>Identidades Visuais:</strong> Criação de marcas únicas que refletem personalidade e essência.</li>
+            <li><strong>Ilustrações Personalizadas:</strong> Arte única que adiciona um toque especial ao seu projeto.</li>
+            <li><strong>Gestão de Redes Sociais:</strong> Design estratégico e criativo para engajar o público.</li>
+            <li><strong>Materiais Gráficos:</strong> Criação de peças como cartões, banners e outros materiais visuais.</li>
+            <li><strong>Softwares:</strong> Photoshop, Illustrator, Figma, Canva, Adobe Lightroom e Krita.</li>
+        </ul>
+    </section>
+
+    <section class="quote">
+        <p>"Minha maior paixão é dar vida a ideias, seja através de marcas únicas ou ilustrações que encantam."</p>
     </section>
 
     <footer>
         <p>Conecte-se comigo:</p>
-        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        <a href="#">E-mail</a> |
+        <a href="#">WhatsApp</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Behance</a>
     </footer>
 
 </body>
 </html>
+
 
